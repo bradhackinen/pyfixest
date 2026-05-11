@@ -75,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-381776df98abee29e77bfaddc64fade2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5ca837e5edc0d9070fa4a1d1e5b3c99b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -155,6 +155,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">Formula Syntax</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../tutorials/instrumental-variables.html">
+ <span class="dropdown-text">Instrumental Variables</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../tutorials/regression-tables.html">
  <span class="dropdown-text">Regression Tables</span></a>
   </li>  
@@ -178,6 +182,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">All Guides</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../how-to/demeaner-backends.html">
+ <span class="dropdown-text">Choosing a Demeaner Backend</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="../how-to/marginaleffects.html">
  <span class="dropdown-text">Marginal Effects &amp; Hypothesis Testing</span></a>
@@ -294,7 +302,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reference/estimation.models.feols_.Feols.html">Estimation Classes</a></li><li class="breadcrumb-item"><a href="../reference/estimation.models.feols_.Feols.html">estimation.models.feols_.Feols</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reference/demeaners.BaseDemeaner.html">Estimation Classes</a></li><li class="breadcrumb-item"><a href="../reference/estimation.models.feols_.Feols.html">estimation.models.feols_.Feols</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -375,6 +383,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">estimation.post_estimation.multcomp.rwolf</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../reference/estimation.post_estimation.multcomp.wyoung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">estimation.post_estimation.multcomp.wyoung</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -386,6 +400,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../reference/demeaners.BaseDemeaner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">demeaners.BaseDemeaner</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../reference/demeaners.MapDemeaner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">demeaners.MapDemeaner</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../reference/demeaners.WithinDemeaner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">demeaners.WithinDemeaner</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../reference/demeaners.LsmrDemeaner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">demeaners.LsmrDemeaner</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../reference/estimation.models.feols_.Feols.html" class="sidebar-item-text sidebar-link active">
@@ -493,12 +531,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">report.iplot</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../reference/did.visualize.panelview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">did.visualize.panelview</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -553,6 +585,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../reference/utils.utils.ssc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">utils.utils.ssc</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../reference/utils.utils.get_ssc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">utils.utils.get_ssc</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../reference/estimation.deprecated.model_matrix_fixest_.model_matrix_fixest.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">estimation.deprecated.model_matrix_fixest_.model_matrix_fixest</span></a>
   </div>
@@ -568,7 +612,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reference/estimation.models.feols_.Feols.html">Estimation Classes</a></li><li class="breadcrumb-item"><a href="../reference/estimation.models.feols_.Feols.html">estimation.models.feols_.Feols</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reference/demeaners.BaseDemeaner.html">Estimation Classes</a></li><li class="breadcrumb-item"><a href="../reference/estimation.models.feols_.Feols.html">estimation.models.feols_.Feols</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">estimation.models.feols_.Feols</h1>
 </div>
@@ -596,18 +640,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    weights,</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    weights_type,</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    collin_tol,</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    fixef_tol,</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    fixef_maxiter,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    lookup_demeaned_data,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    solver<span class="op">=</span><span class="st">'np.linalg.solve'</span>,</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    demeaner_backend<span class="op">=</span><span class="st">'numba'</span>,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    store_data<span class="op">=</span><span class="va">True</span>,</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    copy_data<span class="op">=</span><span class="va">True</span>,</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    lean<span class="op">=</span><span class="va">False</span>,</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    context<span class="op">=</span><span class="dv">0</span>,</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    sample_split_var<span class="op">=</span><span class="va">None</span>,</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    sample_split_value<span class="op">=</span><span class="va">None</span>,</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    lookup_demeaned_data,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    solver<span class="op">=</span><span class="st">'np.linalg.solve'</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    demeaner<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    store_data<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    copy_data<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    lean<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    context<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    sample_split_var<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    sample_split_value<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Non user-facing class to estimate a linear regression via OLS.</p>
 <p>Users should not directly instantiate this class, but rather use the <a href="../reference/estimation.api.feols.feols.html">feols()</a> function. Note that no demeaning is performed in this class: demeaning is performed in the FixestMulti class (to allow for caching of demeaned variables for multiple estimation).</p>
 <section id="parameters" class="level2 doc-section doc-section-parameters">
@@ -967,76 +1009,71 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>“scipy.sparse.linalg.lsqr”, “jax”], default is “scipy.linalg.solve”. Solver to use for the estimation.</td>
 </tr>
 <tr class="even">
-<td>_demeaner_backend</td>
-<td>DemeanerBackendOptions</td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>_data</td>
 <td>pd.DataFrame</td>
 <td>The data frame used in the estimation. None if arguments <code>lean = True</code> or <code>store_data = False</code>.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>_model_name</td>
 <td>str</td>
 <td>The name of the model. Usually just the formula string. If split estimation is used, the model name will include the split variable and value.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>_model_name_plot</td>
 <td>str</td>
 <td>The name of the model used when plotting and summarizing models. Usually identical to <code>_model_name</code>. This might be different when pf.summary() or pf.coefplot() are called and models with identical _model_name attributes are passed. In this case, the _model_name_plot attribute will be modified.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>_quantile</td>
 <td>Optional[float]</td>
 <td>The quantile used for quantile regression. None if not a quantile regression.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td># special for did</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>_res_cohort_eventtime_dict</td>
 <td>Optional[dict[str, Any]]</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>_yname</td>
 <td>Optional[str]</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>_gname</td>
 <td>Optional[str]</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>_tname</td>
 <td>Optional[str]</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>_idname</td>
 <td>Optional[str]</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>_att</td>
 <td>Optional[Any]</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>test_treatment_heterogeneity</td>
 <td>Callable[…, Any]</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>aggregate</td>
 <td>Callable[…, Any]</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>iplot_aggregate</td>
 <td>Callable[…, Any]</td>
 <td></td>
@@ -1320,7 +1357,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="examples" class="level4 doc-section doc-section-examples">
 <h4 class="doc-section doc-section-examples anchored" data-anchor-id="examples">Examples</h4>
-<div id="53c5bd61" class="cell" data-execution_count="1">
+<div id="46a2f2e8" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyfixest <span class="im">as</span> pf</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1331,7 +1368,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>fit.ccv(treatment<span class="op">=</span><span class="st">"D"</span>, pk<span class="op">=</span><span class="fl">0.05</span>, qk<span class="op">=</span><span class="fl">0.5</span>, n_splits<span class="op">=</span><span class="dv">8</span>, seed<span class="op">=</span><span class="dv">123</span>).head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 
-        <div id="h8dyjp"></div>
+        <div id="hMVNLe"></div>
         <script type="text/javascript" data-lets-plot-script="library">
             if(!window.letsPlotCallQueue) {
                 window.letsPlotCallQueue = [];
@@ -1355,9 +1392,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                     var div = document.createElement("div");
                     div.style.color = 'darkred';
                     div.textContent = 'Error loading Lets-Plot JS';
-                    document.getElementById("h8dyjp").appendChild(div);
+                    document.getElementById("hMVNLe").appendChild(div);
                 };
-                var e = document.getElementById("h8dyjp");
+                var e = document.getElementById("hMVNLe");
                 e.appendChild(script);
             })()
         </script>
@@ -1365,7 +1402,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="cell-output cell-output-display">
 
-        <div id="7zfx39"></div>
+        <div id="SglqjH"></div>
         <script type="text/javascript" data-lets-plot-script="library">
             if(!window.letsPlotCallQueue) {
                 window.letsPlotCallQueue = [];
@@ -1389,9 +1426,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                     var div = document.createElement("div");
                     div.style.color = 'darkred';
                     div.textContent = 'Error loading Lets-Plot JS';
-                    document.getElementById("7zfx39").appendChild(div);
+                    document.getElementById("SglqjH").appendChild(div);
                 };
-                var e = document.getElementById("7zfx39");
+                var e = document.getElementById("SglqjH");
                 e.appendChild(script);
             })()
         </script>
@@ -1416,21 +1453,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <th data-quarto-table-cell-role="th">CCV</th>
-<td>0.10232763567508663</td>
-<td>0.23226</td>
-<td>0.440573</td>
-<td>0.664767</td>
-<td>-0.385633</td>
-<td>0.590288</td>
+<td>-0.17860221291235093</td>
+<td>0.212255</td>
+<td>-0.84145</td>
+<td>0.411136</td>
+<td>-0.624534</td>
+<td>0.26733</td>
 </tr>
 <tr class="even">
 <th data-quarto-table-cell-role="th">CRV1</th>
-<td>0.102328</td>
-<td>0.130122</td>
-<td>0.7864</td>
-<td>0.441864</td>
-<td>-0.171048</td>
-<td>0.375703</td>
+<td>-0.178602</td>
+<td>0.141108</td>
+<td>-1.265712</td>
+<td>0.221754</td>
+<td>-0.475059</td>
+<td>0.117855</td>
 </tr>
 </tbody>
 </table>
@@ -1579,7 +1616,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="examples-1" class="level4 doc-section doc-section-examples">
 <h4 class="doc-section doc-section-examples anchored" data-anchor-id="examples-1">Examples</h4>
-<div id="8bad30a1" class="cell" data-execution_count="2">
+<div id="82e96d50" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyfixest <span class="im">as</span> pf</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyfixest.utils.dgps <span class="im">import</span> gelbach_data</span>
@@ -1999,7 +2036,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="examples-2" class="level4 doc-section doc-section-examples">
 <h4 class="doc-section doc-section-examples anchored" data-anchor-id="examples-2">Examples</h4>
-<div id="1fc74675" class="cell" data-results="asis" data-execution_count="3">
+<div id="ad35b293" class="cell" data-results="asis" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyfixest <span class="im">as</span> pf</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pf.get_data()</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>fit <span class="op">=</span> pf.feols(<span class="st">"Y ~ X1 + X2"</span>, data<span class="op">=</span>data)</span>
@@ -2015,7 +2052,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display" data-execution_count="3">
 <pre><code>H0                                      X1=0
 ri-type                      randomization-c
-Estimate                 -0.9929357698186859
+Estimate                 -0.9929357698186863
 Pr(&gt;|t|)                                 0.0
 Std. Error (Pr(&gt;|t|))                    0.0
 2.5% (Pr(&gt;|t|))                          0.0
@@ -2189,7 +2226,7 @@ dtype: object</code></pre>
 </section>
 <section id="examples-3" class="level4 doc-section doc-section-examples">
 <h4 class="doc-section doc-section-examples anchored" data-anchor-id="examples-3">Examples</h4>
-<div id="3dc0eb92" class="cell" data-execution_count="4">
+<div id="876c1da0" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyfixest <span class="im">as</span> pf</span>
@@ -2208,8 +2245,8 @@ dtype: object</code></pre>
 <span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Python f_stat: </span><span class="sc">{</span>f_stat<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Python p_stat: </span><span class="sc">{</span>p_stat<span class="sc">}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Python f_stat: 126.40650474043487
-Python p_stat: 2.5053092828140965e-29</code></pre>
+<pre><code>Python f_stat: 126.40650474043508
+Python p_stat: 2.505309282813844e-29</code></pre>
 </div>
 </div>
 </section>
@@ -2349,7 +2386,7 @@ Python p_stat: 2.5053092828140965e-29</code></pre>
 </section>
 <section id="examples-4" class="level4 doc-section doc-section-examples">
 <h4 class="doc-section doc-section-examples anchored" data-anchor-id="examples-4">Examples</h4>
-<div id="49505840" class="cell" data-results="asis" data-execution_count="5">
+<div id="866a296c" class="cell" data-results="asis" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyfixest <span class="im">as</span> pf</span>
 <span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
