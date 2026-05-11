@@ -6,7 +6,6 @@ estimation.deprecated.model_matrix_fixest_.model_matrix_fixest(
     data,
     drop_singletons=False,
     weights=None,
-    offset=None,
     drop_intercept=False,
     context=0,
 )
